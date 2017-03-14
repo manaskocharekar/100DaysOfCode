@@ -10,8 +10,8 @@ CUST_KEY = ''
 CUST_SECRET = ''
 APP_KEY = ''
 APP_SECRET = ''
-auth = tweepy.OAuthHandler(CUST_KEY, CUST_SECRET)
-auth.set_access_token(APP_KEY, APP_SECRET)
+auth = tweepy.OAuthHandler(CUST_KEY, CUST_SECRET) //Enter your respective Keys
+auth.set_access_token(APP_KEY, APP_SECRET)  //Enter your respective Keys
 access = tweepy.API(auth)
 
 TweetThis = str(sys.argv[1])
