@@ -6,10 +6,10 @@ __author__ = '@ManasKocharekar'
 
 
 #KEYS
-CUST_KEY = ''
-CUST_SECRET = ''
-APP_KEY = ''
-APP_SECRET = ''
+CUST_KEY = 'i57HhXiPrwdZFdOcJHagTyXyc'
+CUST_SECRET = 'twEUItfWsObrnWQ1F8TMBg31wRkERFjJr6U17hAi4hjMpQgNjg'
+APP_KEY = '348995503-BbCiMNykdh1E0Nm0UW0ndM1YpZ02rpwjBSlikHUG'
+APP_SECRET = 'YHDGl3ex6Nd7eeVRNlYgtMEcKeZf1n7efwrEOgBRkLHbu'
 auth = tweepy.OAuthHandler(CUST_KEY, CUST_SECRET)
 auth.set_access_token(APP_KEY, APP_SECRET)
 access = tweepy.API(auth)
